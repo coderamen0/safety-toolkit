@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, 
+.hero {
+    background-color: #590d22;
+}
+
+.resources, 
+.action {
+    background-color: #c9184a;
+}
+
+.header {
+    min-height: 40px;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+
+}
+
+.hero {
+    min-height: 350px;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content:center;
+    gap: 25px;
+    color:#E5E7EB;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+
+}
+
+.infographic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.description{
+    max-width: 395px;
+    text-align: center;
+}
+
+.statistic {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.fact{
+    font-size: 30px ;
+}
+
+.resources {
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info{
+   flex:initial;   
+  
+}
+
+
+img{
+    width: 96px;
+    height: auto;
+}
+
+.desc{
+    width: 250px;
+    text-align: center;
+}
+
+.quote {
+
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.info{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.action{
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:#590d22;
+    width: 900px;
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}   
+
+button{
+    width:100px;
+    height: 100px;
+    background-color:#590d22;
+    color: mintcream;
+    border-radius: 10px;
+    overflow: hidden;
+    font: 50px;
+    font-weight: 900;
+    border: none;
+   
+    
+
+}
+
+.footer {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
