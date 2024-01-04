@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-
-body{
+body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.header, 
+.header,
 .hero {
     background-color: #1f2937;
 }
 
-.resources, 
+.resources,
 .action {
     background-color: #f9faf8;
 }
@@ -25,40 +24,31 @@ body{
     color: #f9faf8;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 15px;
-
-
 }
 
 .hero {
     min-height: 350px;
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 25px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
 
-.intro {
+.intro,
+.infographic,
+.description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:5px;
-
+    gap: 5px;
 }
 
-.infographic {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.description{
+.description {
     max-width: 395px;
     text-align: center;
 }
@@ -69,8 +59,8 @@ body{
     letter-spacing: 4px;
 }
 
-.fact{
-    font-size: 30px ;
+.fact {
+    font-size: 30px;
 }
 
 .resources {
@@ -78,7 +68,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 a {
@@ -86,36 +75,33 @@ a {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color:#1f2937;
+    color: #1f2937;
     font-size: 18px;
     font-weight: 600;
 }
 
-.info{
-   flex:initial;   
-  
+.info,
+.title {
+    color: #E5E7EB;
 }
 
-
-img{
-    width: 96px;
-    height: auto;
+.info {
+    flex: initial;
+    font-size: 18px;
 }
 
-.desc{
-    width: 250px;
-    text-align: center;
-}
-
-.quote {
-
-    min-height: 350px;
+.quote,
+.desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
 
+.quote {
+    min-height: 350px;
+    background-color: #E5E7EB;
 }
 
 .text {
@@ -128,24 +114,18 @@ img{
     font-size: 20px;
 }
 
-
-.quote {
-    background-color: #E5E7EB;
+img {
+    width: 96px;
+    height: auto;
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: 1000;
     color: #f9faf8;
 }
 
-.info{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-
-.action{
+.action {
     min-height: 350px;
     display: flex;
     align-items: center;
@@ -153,33 +133,33 @@ img{
     gap: 50px;
 }
 
-.dialogue-box{
-    background-color: #3882f6;    
-
+.dialogue-box {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 24px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     width: 900px;
-    padding: 40px;
-    border-radius: 10px;
-    overflow: hidden;
-}   
+    padding: 24px;
+}
 
-button{
-    width:100px;
-    height: 100px;
-    background-color:#3882f6;
-    color: mintcream;
+button {
+    width: 100px;
+    height: auto;
+    padding: 24px;
+    background-color: #3882f6;
+    border: 4px solid #E5E7EB;
+    color: #E5E7EB;
     border-radius: 10px;
-    overflow: hidden;
-    font: 50px;
+    font-size: 20px;
     font-weight: 900;
-    border: none;
-   
-    
-
+    cursor: pointer;
 }
 
 .footer {
@@ -187,6 +167,4 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
