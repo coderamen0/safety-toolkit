@@ -10,12 +10,12 @@ body{
 
 .header, 
 .hero {
-    background-color: #590d22;
+    background-color: #1f2937;
 }
 
 .resources, 
 .action {
-    background-color: #c9184a;
+    background-color: #f9faf8;
 }
 
 .header {
@@ -86,7 +86,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color:#E5E7EB;
+    color:#1f2937;
     font-size: 18px;
     font-weight: 600;
 }
@@ -153,10 +153,14 @@ img{
     gap: 50px;
 }
 
+.dialogue-box{
+    background-color: #3882f6;    
+
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    background-color:#590d22;
     width: 900px;
     padding: 40px;
     border-radius: 10px;
@@ -166,7 +170,7 @@ img{
 button{
     width:100px;
     height: 100px;
-    background-color:#590d22;
+    background-color:#3882f6;
     color: mintcream;
     border-radius: 10px;
     overflow: hidden;
