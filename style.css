@@ -149,6 +149,8 @@ img {
     border-radius: 10px;
     overflow: hidden;
     padding: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .container {
@@ -159,7 +161,7 @@ img {
 }
 
 button {
-    width: 100px;
+    min-width: 200px;
     height: auto;
     padding: 6px;
     background-color: #3882f6;
@@ -170,6 +172,7 @@ button {
     font-weight: 900;
     cursor: pointer;
 }
+
 
 .footer {
     min-height: 40px;
