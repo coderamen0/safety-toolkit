@@ -7,3 +7,8 @@ Welcome to the Women's Safety Toolkit for India – an open-source project dedic
 - **Relevant Laws:** Stay informed about laws related to women's safety in India.
 - **Helplines:** Access helplines for distress, legal aid, and counseling on reproductive issues.
 - **Safety Apps:** Discover and learn about safety apps designed to enhance personal security.
+
+### Credits:
+**Icons:** Google Fonts
+**Sidewalk Image**: <a href="https://unsplash.com/@karanghadi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karan Ghadi</a> on <a href="https://unsplash.com/photos/a-brick-sidewalk-next-to-a-wall-covered-in-graffiti-HUsTEWZKe_E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
