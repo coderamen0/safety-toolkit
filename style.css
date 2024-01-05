@@ -19,7 +19,7 @@ body {
 
 .header {
     min-height: 40px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 1000;
     color: #f9faf8;
     display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 .hero-title{
-    font-size: 35px;
+    font-size: 24px;
 
 }
 
@@ -90,7 +90,7 @@ a {
     align-items: center;
     text-decoration: none;
     color: #1f2937;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -101,7 +101,7 @@ a {
 
 .info {
     flex: initial;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .quote,
@@ -120,12 +120,12 @@ a {
 
 .text {
     font-style: italic;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .author {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 img {
@@ -134,7 +134,7 @@ img {
 }
 
 .title {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 1000;
     color: #f9faf8;
 }
@@ -149,6 +149,7 @@ img {
 
 .dialogue-box {
     background-color: #3882f6;
+    color: #E5E7EB;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -156,6 +157,7 @@ img {
     padding: 24px;
     padding-left: 64px;
     padding-right: 64px;
+    max-width: 900px
 }
 
 .container {
@@ -173,7 +175,7 @@ button {
     border: 1px solid #E5E7EB;
     color: #E5E7EB;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 900;
     cursor: pointer;
 }
